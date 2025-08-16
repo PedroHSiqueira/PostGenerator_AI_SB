@@ -1,4 +1,4 @@
-package dev.siqueira.articlesummary_ai.model;
+package dev.siqueira.postsgenerator_AI.model;
 
 public record RequestDTO(String type, String topic) {
 }

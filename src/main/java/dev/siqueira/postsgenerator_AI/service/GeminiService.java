@@ -1,8 +1,8 @@
-package dev.siqueira.articlesummary_ai.service;
+package dev.siqueira.postsgenerator_AI.service;
 
 import com.google.genai.Client;
 import com.google.genai.types.GenerateContentResponse;
-import dev.siqueira.articlesummary_ai.model.RequestDTO;
+import dev.siqueira.postsgenerator_AI.model.RequestDTO;
 import org.springframework.stereotype.Service;
 
 @Service

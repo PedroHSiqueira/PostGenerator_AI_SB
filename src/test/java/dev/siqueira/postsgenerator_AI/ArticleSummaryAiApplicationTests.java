@@ -1,4 +1,4 @@
-package dev.siqueira.articlesummary_ai;
+package dev.siqueira.postsgenerator_AI;
 
 import org.junit.jupiter.api.Test;
 import org.springframework.boot.test.context.SpringBootTest;

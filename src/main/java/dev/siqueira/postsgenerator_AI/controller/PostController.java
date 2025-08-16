@@ -1,7 +1,7 @@
-package dev.siqueira.articlesummary_ai.controller;
+package dev.siqueira.postsgenerator_AI.controller;
 
-import dev.siqueira.articlesummary_ai.model.RequestDTO;
-import dev.siqueira.articlesummary_ai.service.GeminiService;
+import dev.siqueira.postsgenerator_AI.model.RequestDTO;
+import dev.siqueira.postsgenerator_AI.service.GeminiService;
 import org.springframework.http.HttpStatus;
 import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.PostMapping;

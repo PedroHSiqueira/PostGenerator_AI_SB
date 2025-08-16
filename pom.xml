@@ -9,10 +9,10 @@
         <relativePath/> <!-- lookup parent from repository -->
     </parent>
     <groupId>dev.siqueira</groupId>
-    <artifactId>ArticleSummary_AI</artifactId>
+    <artifactId>PostsGenerator_AI</artifactId>
     <version>0.0.1-SNAPSHOT</version>
-    <name>ArticleSummary_AI</name>
-    <description>ArticleSummary_AI</description>
+    <name>PostsGenerator_AI</name>
+    <description>PostsGenerator_AI</description>
     <url/>
     <licenses>
         <license/>
