@@ -25,6 +25,7 @@ PostsGenerator_AI/
 │ ├── model/ # DTOs e modelos de dados
 │ └── service/ # Regras de negócio e integração com a API Gemini
 ├── pom.xml # Dependências Maven
+├── dockerfile # Arquivo para iniciar o Docker 
 └── .env # Variáveis de ambiente
 ```
 
@@ -40,6 +41,12 @@ cd PostsGenerator_AI
 ### 2️⃣ Configurar Variáveis de Ambiente
 ```
 GOOGLE_API_KEY=sua_chave_da_google_gemini
+```
+
+### 3️⃣ Iniciar Docker
+```
+docker build -t postgeneratorai .
+docker run -p 8080:8080 --env-file .env postgeneratorai
 ```
 
 ## 📚 Endpoints Principais
